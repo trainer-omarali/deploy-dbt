@@ -3,11 +3,11 @@ deploy_dbt_course:
   outputs:
     dev:
       type: snowflake
-      account: "la46900.us-east-2.aws"
+      account: la46900.us-east-2.aws
 
       # User/password auth
-      user: "admin"
-      password: "Abc1234567890abc"
+      user: admin
+      password: Abc1234567890abc
 
       role: ACCOUNTADMIN
       database: ANALYTICS
@@ -19,11 +19,11 @@ deploy_dbt_course:
       client_session_keep_alive: False
     prod:
       type: snowflake
-      account: "dpzauep-zu14060"
+      account: la46900.us-east-2.aws
 
       # User/password auth
-      user: "admin"
-      password: "Abc1234567890abc"
+      user: admin
+      password: Abc1234567890abc
 
       role: ACCOUNTADMIN
       database: ANALYTICS
