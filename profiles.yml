@@ -25,7 +25,7 @@ deploy_dbt_course:
       user: "admin"
       password: "Abc1234567890abc"
 
-      role: TRANSFORMER
+      role: ACCOUNTADMIN
       database: ANALYTICS
       warehouse: TRANSFORMING
       schema: prod_schema
